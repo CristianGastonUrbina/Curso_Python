@@ -1,0 +1,6 @@
+with open("C:/Users/Cristian/Desktop/ejercicios_python_UNSAM/Data/precios.csv","rt") as f:
+	for file in f:
+			fruta = file.split(",")
+			if fruta[0] == "Naranja":
+				print ("El precio de la Naranja es de: ", fruta[1])
+

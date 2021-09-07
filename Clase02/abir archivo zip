@@ -1,0 +1,4 @@
+>>> import gzip
+>>> with gzip.open("C:/Users/Cristian/Desktop/ejercicios_python_UNSAM/Data/camion.csv.gz', 'rt') as f:
+        for line in f:
+            print(line, end = '')
