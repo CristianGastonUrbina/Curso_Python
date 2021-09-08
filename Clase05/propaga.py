@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Fri Aug 27 10:27:24 2021
 
@@ -47,57 +46,3 @@ def propagar(lista2):
             propagar_derecha(lista,indice)
             propagar_isquierda(lista,indice)
     print(lista)
-    
-lista=[ 0, 0, 0,-1, 1, 0, 0, 0,-1, 0, 1, 0, 0]
-propagar(lista)
-propagar([ 0, 0, 0, 1, 0, 0])
-
-#%%
-
-lista_1 = [ 0, 0, 0, 1, 0, 0]
-lista_2 = [ 0, 0, 0, 0, 0, -1]
-lista_3 = [ 0, 0, 0, 0, 0, 1]
-lista_4 = []
-lista_5 = [ 0 for _ in range(1000) ] + [1]
-lista_6 = [1] + [ 0 for _ in range(1000) ]
-lista_7 = [ (i% 6)//2-1 for i in range(200) ]
-lista_8 = [ -1*((i% 6)//2-1) for i in range(60) ]
-
-
-propagada = propagar(lista_1)
-
-
-
-
-
-propagada = propagar(lista_2)
-
-
-
-
-
-propagada = propagar(lista_3)
-
-
-
-
-propagada = propagar(lista_4)
-
-
-propagada = propagar(lista_5)
-
-
-
-
-propagada = propagar(lista_6)
-
-
-
-
-propagada = propagar(lista_7)
-
-
-
-
-propagada = propagar(lista_8)
-
